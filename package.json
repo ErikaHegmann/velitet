@@ -1,0 +1,33 @@
+{
+  "name": "velitet",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErikaHegmann/velitet.git"
+  },
+  "author": "LessieZemlak",
+  "license": "MIT",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/jsonfile": "^6.0.1",
+    "@types/node": "^16.11.1",
+    "@zardoy/tsconfig": "^1.2.2",
+    "esbuild": "^0.13.12",
+    "esbuild-runner": "^2.2.1",
+    "jest": "^27.3.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.0.0",
+    "jsonfile": "^6.1.0",
+    "type-fest": "^2.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ErikaHegmann/velitet.git/issues"
+  }
+}
